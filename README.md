@@ -49,7 +49,7 @@ $additionalParams.Set_Item('deploymentId', $Name);
 #region Service Principle Details
 
 # By default this script will prompt you for your Azure credentials but you can update the script to use an Azure Service Principal instead by following the details at the link below and updating the four variables below once you are done.
-# https://azure.microsoft.com/en-us/documen tation/articles/resource-group-authenticate-service-principal/
+# https://azure.microsoft.com/en-us/documentation/articles/resource-group-authenticate-service-principal/
 
 $UseServicePrinciple = $false;
 $TenantId = "SERVICE_PRINCIPAL_TENANT_ID";
